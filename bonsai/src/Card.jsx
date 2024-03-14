@@ -7,7 +7,6 @@ function Card(props) {
             <h2 className="title">{props.name}</h2>
             <hr />
             <div className="description">{props.description}</div>
-            <hr />
         </div>
     );
 }

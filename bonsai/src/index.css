@@ -15,6 +15,7 @@
 
 /* Body Properties */
 
+
 /*Header Properties*/
 
 .logo{
@@ -24,8 +25,45 @@
 }
 
 .logo-name{
-  font-size: 70px;
+  font-size: 60px;
+  margin: 0 0 0 10px;
 }
+
+.navigation {
+  display: flex;
+  margin: 0 0 0 10px;
+  background-color: #464646;
+  padding: 5px 0 5px 0;
+  border-radius: 5px;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 0 10px;
+}
+
+.navigation ul li {
+  margin-right: 20px;
+}
+
+.navigation ul li:last-child {
+  margin-right: 0;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: #ebebeb;
+  font-weight: bold;
+}
+
+.navigation a:hover {
+  color: #ffffff;
+}
+
+
+
 
 
 /*Card Properties*/
