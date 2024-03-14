@@ -13,7 +13,7 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.card{
+.card {
   border: 1px solid #979797;
   border-radius: 10px;
   box-shadow: 5px 5px 5px #979797;
@@ -24,19 +24,22 @@
   display: inline-block;
 }
 
-.image{
+.image {
   border: 1px solid #979797;
   max-width: 80%;
   max-height: 80%;
   border-radius: 10px;
 }
 
-.title{
+.title {
   font-family: Arial, sans-serif;
   margin: 0;
   color: #464646;
 }
 
-.text{
-  font-size: Arial, sans-serif;
+.description {
+  max-height: 100px;
+  overflow-y: auto;
+  scrollbar-width: thin; /* "thin" or "auto" */
+  scrollbar-color: #7f7f7f #f0f0f0;
 }
