@@ -13,6 +13,22 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Body Properties */
+
+/*Header Properties*/
+
+.logo{
+  border: none;
+  max-height: 50px;
+  max-width: 50px;
+}
+
+.logo-name{
+  font-size: 70px;
+}
+
+
+/*Card Properties*/
 .card {
   border: 1px solid #979797;
   border-radius: 10px;

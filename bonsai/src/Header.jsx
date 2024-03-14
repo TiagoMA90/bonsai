@@ -1,7 +1,7 @@
 function Header() {
     return(
         <header>
-            <h1>Bonsai</h1>
+            <h1 className="logo-name">B<img className="logo" src="./src/assets/images/bonsailogo.webp" alt="logo"></img>nsai</h1>
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
