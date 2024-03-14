@@ -62,10 +62,6 @@
   color: #ffffff;
 }
 
-
-
-
-
 /*Card Properties*/
 .card {
   border: 1px solid #979797;
@@ -96,4 +92,12 @@
   overflow-y: auto;
   scrollbar-width: thin; /* "thin" or "auto" */
   scrollbar-color: #7f7f7f #f0f0f0;
+}
+
+/* Footer properties */
+.footer {
+  background-color: #464646;
+  padding: 15px;
+  border-radius: 5px;
+  color: #ebebeb;
 }
